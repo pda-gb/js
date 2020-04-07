@@ -60,16 +60,44 @@ var min = +prompt('min');
 var max = +prompt('max');
 a = Math.trunc(Math.random() * (max - min) + min);
 alert(a);
-// switch (a) {
-// 	case a == 15 :
-// 	alert(a);
-// 		break;
-// 	case a < 15 :
-// 		++a;
-// 	default: alert(a);
-//
-// }
-// не совсем понял задание, по моему здесь подходит больше цикл, а не свитч
+switch (a) {
+	case '1':
+	console.log(a)
+	case '2':
+	console.log(a)
+	case '3':
+	console.log(a)
+	case '4':
+	console.log(a)
+	case '5':
+	console.log(a)
+	case '6':
+	console.log(a)
+	case '7':
+	console.log(a)
+	case '8':
+	console.log(a)
+	case '9':
+	console.log(a)
+	case '10':
+	console.log(a)
+	case '11':
+	console.log(a)
+	case '12':
+	console.log(a)
+	case '13':
+	console.log(a)
+	case '14':
+	console.log(a)
+	case '15':
+	console.log(a)
+	break;
+	default:alert('error') ;
+
+}
+
+
+
 
 //5
 
