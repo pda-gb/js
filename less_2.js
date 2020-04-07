@@ -46,6 +46,90 @@ var b=+prompt('ВВедите число b:');
 if(a>0 && b>0){
 	alert('разность:'+(a-b));
 }
-if(a<0 && b<0){
-	alert('разность:'+(a-b));
+if (a < 0 && b < 0) {
+  alert('произведение:' + (a * b));
 }
+if ((a < 0 && b > 0) || (a > 0 && b < 0)) {
+  alert('сумма:' + (a + b));
+}
+
+
+//4
+
+var min = +prompt('min');
+var max = +prompt('max');
+a = Math.trunc(Math.random() * (max - min) + min);
+alert(a);
+// switch (a) {
+// 	case a == 15 :
+// 	alert(a);
+// 		break;
+// 	case a < 15 :
+// 		++a;
+// 	default: alert(a);
+//
+// }
+// не совсем понял задание, по моему здесь подходит больше цикл, а не свитч
+
+//5
+
+function mathSumm(arg1, arg2) {
+	return (arg1 + arg2);
+}
+function mathRazn(arg1, arg2) {
+return (arg1 - arg2);
+}
+function mathUmnozhenie(arg1, arg2) {
+	return (arg1 * arg2);
+}
+function mathDelenie(arg1, arg2) {
+	return (arg1 / arg2);
+}
+
+
+//6
+
+function mathOperation(arg1, arg2, operation) {
+  switch (operation) {
+    case '+':
+		return (arg1 + arg2);
+    break;
+
+    case '-':
+		return (arg1 - arg2);
+    break;
+
+    case '*':
+		return (arg1 * arg2);
+    break;
+
+    case '/':
+		return (arg1 / arg2);
+    break;
+
+    // default:
+
+  }
+}
+// доп. условие в этой задаче: "использовать функции из пункта 3", не понял что именно надо сделать
+
+
+//7
+
+Ноль - точно опеределённое, заданное число. Null это это отдельный тип чисел, при присвоении переменной, мы явно указываем ей, что она пуста и в ней ничего нет, не занимает памяти
+
+
+//8
+
+function power(val, pow){
+	val_result = val * val;
+	val = val_result;
+	if (pov > 1){
+	--pov;
+	power(val, pow);
+	}
+	else {
+
+	}return val_result;
+}
+
